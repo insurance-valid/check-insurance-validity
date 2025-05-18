@@ -17,7 +17,7 @@ with st.sidebar:
     policy_pdf = st.file_uploader("📄 Policy Wording PDF", type="pdf")
     bill_pdf = st.file_uploader("🏥 Discharge Summary / Bill PDF", type="pdf")
 
-    model_choice = st.selectbox("🧠 OpenAI Model", ["gpt-4", "gpt-4-turbo", "gpt-3.5-turbo"], index=1)
+    model_choice = st.selectbox("🧠 OpenAI Model", ["gpt-4o", "gpt-4", "gpt-4-turbo", "gpt-3.5-turbo"], index=1)
 
     custom_prompt = st.text_area("✍️ Custom Prompt (optional)", placeholder="Leave blank to use default system prompt", height=200)
 
