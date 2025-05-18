@@ -5,7 +5,7 @@ import fitz  # PyMuPDF
 
 
 # Set your OpenAI API key
-#openai.api_key = st.secrets.get("OPENAI_API_KEY")
+openai.api_key = st.secrets.get("OPENAI_API_KEY")
 
 st.set_page_config(page_title="Claim Analyzer", layout="wide")
 st.title("💼 Insurance Claim Settlement Analyzer")
